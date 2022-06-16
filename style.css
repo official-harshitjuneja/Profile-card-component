@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    /* font-size: 18px; */
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-pattern-top {
+    bottom: 50%;
+    right: 50%;
+    position: fixed;
+}
+
+.bg-pattern-bottom {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.box {
+    height: 360px;
+    width: 370px;
+    background-color: #fff;
+    /* left: 38%; */
+    top: 27%;
+    position: fixed;
+    border-radius: 15px;
+}
+
+.bg-pattern-card {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 370px;
+}
+
+.photo {
+    border-radius: 50%;
+    /* left: 46.5%; */
+    /* top: 40%; */
+    margin-top: 85px;
+    margin-left: -247px;
+    position: fixed;
+    border: 5px solid #fff;
+}
+
+h2 {
+    margin-left: 115px;
+    margin-top: 65px;
+    font-size: 20px;
+}
+
+.age {
+    font-size: 20px;
+    margin-left: 240px;
+    margin-top: -25px;
+    color: hsl(0, 0%, 59%);
+}
+
+.city {
+    color: hsl(0, 0%, 59%);
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+hr {
+    margin-top: 18px;
+    opacity: 0.35;
+}
+
+.values {
+    list-style-type: none;
+}
+
+.values li {
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.details {
+    list-style-type: none;
+}
+
+.details li {
+    float: left;
+    padding: 25px;
+    margin-left: 22px;
+    color: hsl(0, 0%, 59%);
+    margin-top: -35px;
+    font-size: 12px;
+}
+
+.details .photos {
+    margin-left: 28px;
+}
+
+.challenge {
+    margin-top: 690px;
+}
